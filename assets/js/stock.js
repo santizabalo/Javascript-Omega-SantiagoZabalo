@@ -1,0 +1,18 @@
+let stockProductos = [
+    {id: 1, nombre: "Wrap jyq", tipo: "wrap", cantidad: 1, desc: "Wrap de jamon y queso con vegetales", precio: 300,filtro: "P", img: '/assets/img/Wrap-jyq.jpg'},
+    {id: 2, nombre: "wrap veggie", tipo: "wrap", cantidad: 1, desc: "Wrap veggie de vegetales", precio: 300,filtro: "P", img: '/assets/img/wrap-vegetales.jpg'},
+    {id: 3, nombre: "wrap pollo", tipo: "wrap", cantidad: 1, desc: "Wrap de pollo con vegetales", precio: 300, filtro: "P", img: '/assets/img/wrap-pollo.jpg'},
+    {id: 4, nombre: "Verdura asada", tipo: "Vianda", cantidad: 1, desc: "Tomates asados con queso y papas", precio: 500, filtro: "P", img: '/assets/img/verdura-asada.jpg'},
+    {id: 5, nombre: "Carne con arroz", tipo: "Vianda", cantidad: 1, desc: "Carne en salsa con arroz", precio: 500, filtro: "P", img: '/assets/img/carne-con-arroz.jpg'},
+    {id: 6, nombre: "Carne con Papas", tipo: "Vianda", cantidad: 1, desc: "Carne con papas", precio: 500, filtro: "P", img: '/assets/img/Carne-papas.jpg'},
+    {id: 7, nombre: "Wok de vegetales", tipo: "Vianda", cantidad: 1, desc: "Wok de vegetales con fideos", precio: 500, filtro: "M", img: 'assets/img/wok-de-vegetales.jpg'},
+    {id: 8, nombre: "Salteado de carne", tipo: "Vianda", cantidad: 1, desc: "Salteado de carne con vegetales", precio: 500, filtro: "M", img: 'assets/img/salteado-de-carnes.jpg'},
+    {id: 9, nombre: "Carne asada", tipo:"Vianda", cantidad: 1, desc: "Carne asada con verduras", precio: 500, filtro: "M", img: 'assets/img/carne-asada-con-verduras.jpg'},
+    {id: 10, nombre: "Carne al horno", tipo: "Vianda", cantidad: 1, desc: "Carne al horno con papas", precio: 500, filtro: "M", img: 'assets/img/carne-al-horno.jpg'},
+    {id: 11, nombre: "Verduras con arroz", tipo: "Vianda", cantidad: 1, desc: "Zapallito al horno con aroz", precio: 500, filtro: "M", img: 'assets/img/verduras-con-arroz.jpg'},
+    {id: 12, nombre: "Arroz primavera", tipo: "Vianda", cantidad: 1, desc: "Arroz primavera con jamon", precio: 500, filtro: "M", img: 'assets/img/arroz-primavera.jpg'},
+    {id: 13, nombre: "Milanesa con tortilla", tipo: "Vianda", cantidad: 1, desc: "Milanesa de pollo con tortilla de verdura", precio: 500, filtro: "P", img: 'assets/img/milanesa-con-tortilla.jpg'},
+    {id: 14, nombre: "Paty veggie", tipo: "vianda", cantidad: 1, desc: "Paty veggie con ensalada", precio: 500, filtro: "P", img: 'assets/img/paty-veggie.jpg'},
+    {id: 15, nombre: "Pollo con pure", tipo: "Vianda", cantidad: 1, desc: "Pollo salteado con pure", precio: 500, filtro: "P", img: 'assets/img/pollo-con-pure.jpg'},
+    {id: 16, nombre: "Empanadas", tipo: "Vianda", cantidad: 1, desc: "Empanadas de carne", precio: 500,filtro: "P", img: 'assets/img/Empanadas.jpg'},
+]

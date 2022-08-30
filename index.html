@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEGA</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+   
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/img/fondo-png.png"><h1 id="titulo" class="titulo">OMEGA</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+
+    <div class="seleccion">
+    <select id="filtro">
+        <option value="all">Todos</option>
+        <option value="P">Wraps</option>
+        <option value="M">Viandas</option>
+    </select>
+    </div>
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+    <footer class="footer1">
+        <div class="footer__contacto">
+            <h4 class="texto_contacto">Seguinos a nuestras redes</h4>
+            <div class="footer__redes">
+                <a href="https://www.instagram.com/" class="jam jam-instagram"></a>
+                <a href="https://www.facebook.com/" class="jam jam-facebook-square"></a>
+                <a href="https://www.whatsapp.com/?lang=es" class="jam jam-whatsapp"></a>
+            </div>
+        </div>
+        <div class="footer__marca">
+            <a href="./index.html"><img class="footer__logo" src="./assets/img/fondo-png.png" alt="logotipo spotify" width="120" height="32"></a>
+           
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="./assets/js/stock.js"></script>
+    <script defer src="./assets/js/modal.js"></script>
+    <script defer src="./assets/js/app.js"></script>
+</body>
+</html>
